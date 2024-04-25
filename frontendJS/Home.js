@@ -9,18 +9,12 @@ function ButtonClicked(Page) {
     } else if (Page == `builds`) {
         console.log("Opening My Building Portfolio. Please Wait.")
         location.href("https://acceierate2.github.io/RobloxPortfolio/BuildsPortfolio.html")
-    }
-}
-
-function ShowSelectionUi(Show) {
-
-    if (Show == true) {
+    } else if (Page == "showUi") {
         console.log("Showing Selection Ui.");
         document.getElementById("skillsframe").style.visibility = "visible"
     }
-
 }
 
-ScriptButton:onclick = function(MouseEvent) {    ButtonClicked(`Scripting`)  }
-BuildButton:onclick = function(MouseEvent) {    ButtonClicked(`builds`) }
-select_btn:onclick = function(MouseEvent) {ShowSelectionUi(true)}
+ScriptButton:onclick = function(MouseEvent) {ButtonClicked(`Scripting`)}
+BuildButton:onclick = function(MouseEvent) {ButtonClicked(`builds`) }
+select_btn:onclick = function(MouseEvent) {ButtonClicked(`showUi`)}
