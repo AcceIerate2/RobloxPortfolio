@@ -10,7 +10,7 @@ function ButtonClicked(Page) {
         console.log("Opening My Building Portfolio. Please Wait.")
         location.href("https://acceierate2.github.io/RobloxPortfolio/BuildsPortfolio.html")
     } else if (Page == "showUi") {
-        console.log("Showing Selection Ui.");
+        console.log("Showing 5 Ui.");
         document.getElementById("skillsframe").style.visibility = "visible"
     }
 }
