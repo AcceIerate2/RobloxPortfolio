@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+}
+
+.work {
+    background-color: rgb(14, 14, 14);
+    width: 80%;
+    display: flex;
+    height: fit-content;
+    margin: 10%;
+    border-radius: 25px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.background_image {
+    border-radius: 25px;
+    margin: 2.5%;
+}
+
+.Name {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+.game_link {
+    color: white;
+    font-family: "Arial";
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon {
+    justify-content: center;
+    margin-left: 45%;
+    margin-bottom: 0;
+    margin-top:5%;
+}
+
+.desc_script {
+    width:auto;
+    display: flex;
+    flex-wrap:wrap ;
+    vertical-align: top;
+    align-content: center;
+}
+
+.main {
+    background-color: black;
+    padding: 2.5%;
+    border-radius: 25px;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.skills {
+    margin: 0;
+    color: rgb(0, 195, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
