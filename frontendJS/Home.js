@@ -8,7 +8,7 @@ function ButtonClicked(Page) {
         location.href("ScriptingPortfolio.html")
     } else if (Page == `builds`) {
         console.log("Opening My Building Portfolio. Please Wait.")
-        location.href("portfolio.html")
+        location.href("https://acceierate2.github.io/RobloxPortfolio/BuildsPortfolio.html")
     }
 }
 
